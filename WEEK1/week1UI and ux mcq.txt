@@ -1,0 +1,203 @@
+Question 1
+Which of the following would you use to create a screen of nested composables in such a way that the elements stack up vertically?
+
+1 point
+
+Panel layout
+
+
+
+Row layout
+
+
+
+Grid layout
+
+
+
+Column layout
+
+
+2.
+Question 2
+What is an Activity in Android UI Development? 
+
+1 point
+
+A function that performs a calculation. 
+
+
+
+A component that allows users to interact with the app UI.
+
+
+
+A resource file that stores application data. 
+
+
+
+A special type of ViewGroup container. 
+
+
+3.
+Question 3
+Which of the following are all UI elements subclasses of?
+
+1 point
+
+an Activity
+
+
+
+the View class
+
+
+
+the ViewGroup class
+
+
+
+the Layout class
+
+
+4.
+Question 4
+Which of these methods are called as part of the Activity Lifecycle in Android UI Development? Select all that apply. 
+
+1 point
+
+onInitialized()
+
+
+
+onStart()
+
+
+
+onDestroy()
+
+
+
+onCreate()
+
+
+5.
+Question 5
+Which of the following properties do all views and view groups have in common? Select all that apply.
+
+1 point
+
+layout_width
+
+
+
+src
+
+
+
+layout_centerInParent
+
+
+
+layout_height
+
+
+6.
+Question 6
+Which of the following is based on the declarative approach?
+
+1 point
+
+Inheritance
+
+
+
+the View class
+
+
+
+the traditional view system
+
+
+
+Jetpack Compose
+
+
+7.
+Question 7
+Which of the following is used to tell Jetpack Compose Preview how to generate a preview of the design you are working on?
+
+1 point
+
+./gradlew composePreview
+
+
+
+@Preview
+
+
+
+@composable
+
+
+
+Compose Preview
+
+
+8.
+Question 8
+Which of the following is an Invisible UI element that acts as a container to other views?
+
+1 point
+
+A tree
+
+
+
+View group
+
+
+
+View
+
+
+
+Layout
+
+
+9.
+Question 9
+Which of the following do XML elements correspond to?
+
+1 point
+
+View groups
+
+
+
+View subclasses
+
+
+
+Layouts
+
+
+10.
+Question 10
+Which of the following lays out composables horizontally?
+
+1 point
+
+Box
+
+
+
+View
+
+
+
+Column
+
+
+
+Row
