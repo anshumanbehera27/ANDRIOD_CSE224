@@ -1,0 +1,18 @@
+Week 1:  Kotlin and Android
+In the first week, you will learn how to work with object declarations and experience how they are used.   You'll develop your understanding of companion objects, classes and constant values. In addition, you will have a  walk-through of declaring an object in Android and explore what is involved with implementing a function start for an Activity. 
+
+After completing the different lesson items and activities, you will be able to: 
+
+Explain how to use inheritance to decide how a component should behave.
+
+Implement an application with an Activity.
+
+Implement a list adapter.
+
+Declare an object in Android.
+
+Create and use static inner classes and inner modifiers when appropriate.
+
+Set and read Activity arguments.
+
+Implement a companion object with constant values and arguments.

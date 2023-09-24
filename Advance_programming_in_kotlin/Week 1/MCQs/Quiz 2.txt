@@ -1,0 +1,56 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+In the companion object of IngredientsActivity, you have a start function. In that function, you initialize an Intent. Which of the following calls did you use?
+
+1 / 1 point
+
+ val intent = Intent(context, IngredientsActivity::class)
+
+
+val intent = Intent(context, IngredientsActivity::class.java)
+
+
+val intent = Intent(IngredientsActivity::class.java , context)
+
+Correct
+Correct! The intent constructor expects a context followed by the Java class of the activity to start. 
+
+2.
+Question 2
+In the onCreate function of the IngredientsActivity class, replace the Pasta string with Pizza. Run the code and tap the Pasta button. What happens?
+
+1 / 1 point
+
+IngredientsActivity no longer launches.
+
+
+IngredientsActivity launches with Unknown dish
+
+
+IngredientsActivity launches with the ingredients for a pizza
+
+Correct
+Correct! The Pasta argument is no longer recognized by IngredientsActivity. Any unknown argument leads to Unknown dish being presented.
+
+3.
+Question 3
+Which of the following will start IngredientsActivity from MainActivity?   Select all that apply.
+
+1 / 1 point
+
+startActivity(Intent(this, IngredientsActivity::class.java))
+
+Correct
+Correct! You can instantiate Intent with the appropriate arguments and pass it to startActivity to start IngredientsActivity.
+
+
+startActivity(IngredientsActivity)
+
+
+IngredientsActivity.start(this, “Pasta”)
+
+Correct
+Correct! Calling the static start function on IngredientsActivity will start this activity. 
