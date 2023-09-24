@@ -1,0 +1,96 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+What is a higher-order function?
+
+1 / 1 point
+
+A function that takes functions as parameters, or returns a function.
+
+
+A function that depends on another function for its output.
+
+
+A higher-order function is a function that does not return any value.
+
+Correct
+Correct! A higher-order function is a functional programming concept that allows function to be passed just as objects of other data types.
+
+2.
+Question 2
+Which of these is a correct way to call the function greet:
+
+12345678910
+
+
+fun greet(name: String, function: (name: String) -> Unit) {
+ function(name)
+}
+
+
+fun print(name: String) {
+ println("Hello $name")
+}
+
+1 / 1 point
+
+greet("Joe", print)
+
+
+greet("Joe", ::print)
+
+Correct
+Correct! You can use the :: operator to obtain the reference of a function.
+
+
+greet("Joe") { println("Hi $it") }
+
+Correct
+Correct! You can pass a function as a lambda expression to a higher-order function.
+
+
+greet { print(it) } (“Joe”)
+
+3.
+Question 3
+Which of the following constructs is the repeat function similar to? 
+
+1 / 1 point
+
+If statement 
+
+
+while loop 
+
+
+for loop 
+
+Correct
+Correct! The repeat function is similar to a for loop where you define the number of iterations beforehand. 
+
+4.
+Question 4
+What is the output of the following code?
+
+123456
+val number = 2
+var output = 1
+repeat(3) { index ->
+ output += (index * number)
+}
+println(output)
+
+1 / 1 point
+
+13
+
+
+6
+
+
+7
+
+Correct
+Correct, this is the right result.
