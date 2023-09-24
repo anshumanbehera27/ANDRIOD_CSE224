@@ -1,0 +1,101 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+1 / 1 point
+
+Using a lambda expression.
+
+Correct
+Correct! You can use a lambda expression to instantiate a function type.
+
+
+Using the function name.
+
+
+Using instance of a user defined class that implements a function type as an interface.
+
+Correct
+Correct! You can instantiate a function using a defined class that implements a function type as an interface.
+
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Correct
+Correct! You can use a callable reference such as ‘::functionName’.
+
+2.
+Question 2
+Which of these is a syntactically valid function type?
+
+1 / 1 point
+
+(Int) -> Int, String
+
+
+(Int, Int) -> String
+
+
+Int, Int -> (String)
+
+Correct
+Correct! You define the list of parameters enclosed in a parenthesis, followed by arrow notation and the return type.
+
+3.
+Question 3
+Which of these is a correct lambda expression syntax?
+
+1 / 1 point
+
+{ x: Int, y: Int -> x * y }
+
+
+x: Int, y: Int -> { x * y }
+
+
+x: Int, y: Int -> x * y
+
+Correct
+Correct! This is the correct syntax.
+
+4.
+Question 4
+Which of these would output ‘hello world’ when the function defined below is called?
+
+123
+fun execute(string: String, function: (String) -> String) { 
+ println(function(string))
+}
+
+1 / 1 point
+
+execute("hello") { "$it world" }
+
+
+execute { "hello world" }
+
+
+execute("hello") { "world" }
+
+Correct
+Correct! The implicit argument ‘it’ will contain the value ‘hello’ and hence concatenated string, ‘hello world’ will be printed.
+
+5.
+Question 5
+Which listener interface provided by the Android framework is used to listen for button press events?
+
+1 / 1 point
+
+View.OnClickListener
+
+
+View.OnPressListener
+
+
+View.OnTapListener
+
+Correct
+Correct! The ‘View’ class contains an interface ‘OnClickListener’ that has a method ‘onClick’ which gets called on events such as a button press.

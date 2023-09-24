@@ -1,0 +1,60 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+What was the output when you ran your solution?
+
+1 / 1 point
+
+[Onion, Cheese, Water, Salt]
+
+
+[Onion, Cheese, Water]
+
+
+Onion,
+
+Cheese,
+
+ Water
+
+Correct
+Correct! This is how Kotlin’s println outputs a list of strings and these are the ingredients that remain in the onion soup dish after removing salt. 
+
+2.
+Question 2
+Replace the Salt string in the removeSalt extension function with Cheese. Run the code. What is the output?
+
+1 / 1 point
+
+[Onion, Water]
+
+
+[Onion, Cheese, Water]
+
+
+[Onion, Water, Salt]
+
+Correct
+Correct! Salt is no longer removed from the list. Instead, cheese is removed. 
+
+3.
+Question 3
+Little Lemon asks you to write a new extension function to remove an ingredient (provided as a string) from a dish. Which of these extension functions will perform the requested task?
+
+1 / 1 point
+
+fun String.removeIngredient(ingredient: String) { remove(ingredient) } 
+
+
+fun String.removeIngredient(dish: Dish) { dish.ingredients.remove(this) }
+
+Correct
+Correct! This function will extend the String class with the capability of removing ingredients from a provided dish. 
+
+
+fun Dish.removeIngredient(ingredient: String) { ingredients.remove(ingredient) } 
+
+Correct
+Correct! This function will extend Dish with the capability of removing ingredients by name.

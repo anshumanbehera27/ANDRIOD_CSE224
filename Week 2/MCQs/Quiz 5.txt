@@ -1,0 +1,65 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+What operations can you perform on a MutableCollection but not on a Collection? 
+
+1 / 1 point
+
+Read an element.
+
+
+Remove an element.
+
+Correct
+Correct! You can only remove an element from a MutableCollection.
+
+
+Get a count of the elements in the collection.
+
+
+Add an element.
+
+Correct
+Correct! You can only add an element to a MutableCollection.
+
+2.
+Question 2
+Which of the following statements declares a generic class in Kotlin?
+
+1 / 1 point
+
+class GenericClass
+
+
+class GenericClass<TYPE>
+
+
+generic class GenericClass
+
+
+abstract class GenericClass
+
+Correct
+Correct! This is the right syntax for declaring a generic class.
+
+3.
+Question 3
+You need to instantiate a field named employeeNames of type List<String>. Which of the following statements is valid in Kotlin?
+
+1 / 1 point
+
+val employeeNames: List<String> = ["James", "Ella"]
+
+
+val employeeNames: List<String> = ("James", "Ella")
+
+
+val employeeNames: List<String> = listOf("James", "Ella")
+
+
+val employeeNames: List<String> = "James, Ella"
+
+Correct
+Correct! This is the correct syntax for instantiating a list of strings.

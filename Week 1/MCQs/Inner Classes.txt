@@ -1,0 +1,54 @@
+Inner classes
+In Kotlin, you can define classes within classes to logically group classes that are to be used in one place. This allows you to have more readable code and increases encapsulation by restricting direct access to the class defined within another class and enforcing the outer class to be used. You will learn how to implement such classes in this reading.
+
+The three terms used here to describe the position of a class are:
+
+Nested: A class defined within a class is called a nested class.
+
+Inner: A nested class marked with the keyword ‘inner’ is called an inner class.
+
+Outer: The class which contains the nested or inner class is known as an outer class.
+
+You will learn in detail about these in the upcoming sections.
+
+Nested class
+A nested class is a class defined within another class. For example, let’s say in the app of the Little Lemon restaurant you have a class Order. This class can have a nested class DeliveryDetails to store information such as a delivery address, delivery fee and so forth.
+
+Note: In this example, Order is the outer class.
+
+12345678910
+class Order { 
+    val orderId = 1 
+
+    class DeliveryDetails { 
+        val deliveryFeeInDollars = 10 
+    } 
+
+} 
+
+println(Order.DeliveryDetails().deliveryFeeInDollars).   // This prints 10 
+The print statement prints the delivery fee amount in dollars. In this example, you can observe that the nested class is static by default and can be accessed by mentioning the outer class name, which in this case is Order and the dot operator and without the need for an instance of the outer class. 
+
+It is also important to note that the nested class cannot access the members of the outer class, but the outer class can access the members of the nested class.
+
+Inner class
+It may sometimes be required that the nested class should be able to access members of the outer class. Kotlin provides a keyword inner which when added to a nested class allows it to access the members of the outer class.
+
+For example, let’s say for the outer class Order that contains a constructor parameter orderAmount there can be an inner class TaxDetails that calculates the amount of tax for the given order amount of the outer class.
+
+16141513101112897564321
+class Order(val orderAmount: Int) { 
+
+    inner class TaxDetails { 
+        val taxAmount = 0.05 * orderAmount 
+    } 
+
+} 
+
+// Create instance of Order with amount 100 
+val order = Order(100)		 
+
+The print statement prints the amount of tax computed by the inner class as 5% of the order amount defined in the outer class. Note that the inner class uses a reference of the outer class as its constructor was invoked using the outer class’s instance.
+
+Conclusion
+You learned what nested and inner classes are and how to implement them in code. You also learned the differences between the two including that a nested class cannot access the members of the outer class but an inner class can.

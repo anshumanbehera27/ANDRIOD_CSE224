@@ -1,0 +1,16 @@
+Week 2: Advanced Object-Oriented Features
+In this week, you will learn how to add methods to classes using extension functions while defining and using extension functions in Android. You will also explore functions for different kinds of collection processing using map, filter, and fold.   
+
+After completing the lesson items, you will be able to: 
+
+Use an extension function to add a method to a class when appropriate.
+
+Explain a testing methodology called Test-Driven Development
+
+Explain the features of Test-Driven Development (TDD)
+
+Explain the purpose and types of testing.
+
+Use mocks and fakes for unit testing in Android
+
+Define and use a generic class to solve a problem

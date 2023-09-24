@@ -1,0 +1,53 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+What was the sales tax amount output (up to 2 decimal places) when you ran your exercise’s code?
+
+1 / 1 point
+
+9.59
+
+
+8.98
+
+
+7.71
+
+Correct
+Correct! You correctly implemented the exercise instructions.
+
+2.
+Question 2
+What would be the sales tax output (up to 2 decimal places) if you change the month to August and the sales tax percentage to 7.5%?
+
+1 / 1 point
+
+5.02
+
+
+4.95
+
+
+6.38
+
+Correct
+Correct! You correctly implemented the exercise instructions.
+
+3.
+Question 3
+Which of the following functions does not return a List when called on an instance of List?
+
+1 / 1 point
+
+map
+
+
+filter
+
+
+fold
+
+Correct
+Correct! The fold function would return an accumulated value starting from an initial value and applying an operation to an accumulated value and each element. 

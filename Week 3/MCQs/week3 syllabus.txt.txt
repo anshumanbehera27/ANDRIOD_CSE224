@@ -1,0 +1,16 @@
+Week 3: Functional programming
+Next, you will learn about  Lambda expressions,  Function types,  Higher-order functions and collections processing. You'll explore how functions can be used as objects, use lambda expressions to define functions as objects and define and use higher-order and repeat functions. Finally you'll explore using collection processing methods for multistep collection processing.    
+
+After completing the lesson items, you will be able to:
+
+Explain what functional programming is and why it is useful.
+
+Read and define a function type.
+
+Use a lambda expression to define a function as an object.
+
+Define a function that takes a function as an argument.
+
+Use collection processing functions to process collections in different ways.
+
+Use collection processing methods for multistep collection processing.

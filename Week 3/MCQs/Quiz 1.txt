@@ -1,0 +1,56 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+1.
+Question 1
+In the Practice defining listeners in Android exercise, when you ran the code, what did the app show on its screen?
+
+1 / 1 point
+
+Toast message with text - Data saved
+
+
+Empty screen
+
+
+A button with text Save Data written on it.
+
+Correct
+Correct! You implemented the button code correctly in the layout file. 
+
+2.
+Question 2
+What was the result of clicking the button with text Save Data?
+
+1 / 1 point
+
+Nothing happens
+
+
+A toast message with text - Data saved appears on the screen.
+
+
+Button disappears
+
+Correct
+Correct! You implemented the click listener using a lambda expression correctly. 
+
+3.
+Question 3
+Choose the options with the correct lambda expression syntax implementation.
+
+1 / 1 point
+
+button.setOnClickListener( println(it.id) )
+
+
+ button.setOnClickListener { println(it.id) }
+
+Correct
+Correct! You can define a lambda expression without the parenthesis if the only parameter is the lambda itself and then can if no arbitrary name is assigned to the lambda parameter, access it using it keyword.
+
+
+button.setOnClickListener { view ->  println(view.id) }
+
+Correct
+Correct! You can define a lambda expression without the parenthesis if the only parameter is the lambda itself and then can define an arbitrary name to the lambda parameter. 

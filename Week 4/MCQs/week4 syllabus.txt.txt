@@ -1,0 +1,14 @@
+Week 4: Final project
+To conclude your learning in this course, you'll integrate the skills you gained to upgrade and add functionality to a menu app.
+
+You will demonstrate your ability to: 
+
+Create a list
+
+Sort a list
+
+Filter a list
+
+After completing your assignment, you will be asked to upload your project for review by your peers. Peer reviews provide qualitative and quantitative feedback, providing you with valuable insight into the overall outcome of your menu app’s code. You will also be asked to grade your peers’ submissions using a grading rubric. The grading rubric provides the grading criteria and guidelines for each part of the assignment.
+
+Following your participation in the peer reviews, you will complete the final assessment. The grades you receive by completing the final project, module quizzes and graded assignment will determine whether you successfully complete this course on advanced programming in Kotlin.
